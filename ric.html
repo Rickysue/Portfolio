@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>RickySu Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet"> 
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/devjane.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Education Background</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Internship Experience</a></li>
+                    <li class="nav__item"><a href="#project" class="nav__link">Project Experience</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Ruiqi (Ricky) Su</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">MSc in Development Finance / BA in Accounting</p>
+            <img src="img/ricky02.jpg" alt="a picture of ricky" class="intro__img">
+        </section>
+
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">A Boy, from Accounting&Finance and Marco-economics, Self-learned Tech things and head to his Start-Up Dream! </p>
+           
+           <div class="about-me__body">
+               <p>My name is Ruiqi (Ricky) Su.</p> 
+               <p><strong>MSc in Development Finance</strong> from University of Manchester<strong>, BA in Accounting</strong> from China University of Mining and Technology (Bieijing).</p>
+               <p>Online-studied and self-learned <strong>over 20 courses</strong> in Coursera and Datacamp related to <strong>Data Science and Business Analytics</strong>.</p>
+               <p>Internships <strong>in Investment Banking / Auditing / Product and Data Aanalysis</strong>.</p>
+           </div>
+           
+           <img src="img/ricky01.jpg" alt="formal suit ricky " class="about-me__img">
+        </section>
+        
+        <!-- My Education Background -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">Education Background</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>University of Manchester</h3>
+                    <p>School of Enviornment, Education and Development / Master of Science in Development Finance</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>CUMTB</h3>
+                    <p>School of Management / Bachelor of Administration in Accounting</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Coursera & Datacamp</h3>
+                    <p>Completed over 20 courses about Python, Data science and Business analystics</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="moreaboutedu.html" class="btn">More About ricky's Education background</a>
+        </section>
+        
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">Internship Experience</h2>
+            <p class="section__subtitle section__subtitle--work">Investment Banking / Auditing / Product and Data Analysis</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="IBD.html" class="portfolio__item">
+                    <img src="img/zhongde.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="mazars.html" class="portfolio__item">
+                    <img src="img/mazars.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="ali.html" class="portfolio__item">
+                    <img src="img/ali.jpg" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+        
+        <!-- My Project Experience -->
+        <section class="my-project" id="project">
+            <h2 class="section__title section__title--work">Project Experience</h2>
+            <p class="section__subtitle section__subtitle--work">Digital Accounting / IBM Data Science Capstone / Research Asistant in Zhang Fengtai's Lab</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="DA.html" class="portfolio__item">
+                    <img src="img/DA.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="IBM.html" class="portfolio__item">
+                    <img src="img/IBM.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="RA.html" class="portfolio__item">
+                    <img src="img/ra.jpg" alt="" class="portfolio__img">
+                </a>
+
+
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="rickysu15@outlook.com" class="footer__link">Email: rickysu15@outlook.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/rickysu15/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/Rickysue">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.youtube.com/channel/UCJ05hj4n2VPycOrKoDg0N3w">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.instagram.com/rickysu15/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>

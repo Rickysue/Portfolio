@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>IBM Data Science </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet"> 
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/devjane.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="ric.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="ric.html#services" class="nav__link">Education Background</a></li>
+                    <li class="nav__item"><a href="ric.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="ric.html#work" class="nav__link">Internship Experience</a></li>
+                    <li class="nav__item"><a href="ric.html#project" class="nav__link">Project Experience</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                 <strong>Capstone Project</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">in IBM Data Science Professioanl Certificate</p>
+            <img src="img/IBM01.jpg" alt="" class="intro__img">
+        </section>
+        
+        <div class="portfolio-item-individual">
+            <h3>Personal Project </h3>
+            <h3>Online-Coursera, 2020.06-2020.07</h3>
+
+            <p><strong>Business Problem:</strong> <br>Where is the best place to open a coffee shop business in around Universities in Beijing?</p>
+
+            <p><strong>Data</strong></p>
+                <p>- List of 83 universities in Beijing<br>- Latitude and Longtitude of these universities<br>- Venue data of coffee shops around universities</p>
+
+            <p><strong>Methodology</strong>
+                <p>- Gaode Map API to get the geographical coordinates<br>- Foursquare API to get the top 100 venues within a radisu of 2km.<br>- Filter the "Coffee Shop" and used K-menas to indentify the concentration density of Coffee shops around the universities.<br>- Five clusters: no exitence to low number,moderate number, moderate concentration, relatively high concentration, high concentration.</p>
+
+            <p><strong>Results and Discussion: </strong></p>
+            <p>- Coffee shops in Haidian are concentrated in office builidings and shopping malls since it is a college-city distrcit with developed business enviornment that is not far from universities. So we can start the business inside the university or near the university entrance</p>
+
+            <p>- Brands like Starbucks, Pacific, Costa has carved up the market for the over 30-yuan a cup of coffee. However, the cheap coffee market for students still has the huge opportunity.</p>
+
+            <p>- Outside Haidian District is the less developed or developing university-city ares. Coffee business should focus on no only the white-collars but also the students.</p>
+
+            <p><strong>Report and code refer to <br><u>https://github.com/Rickysue/IBM-DS-Capstone</strong> </u>.</p> 
+
+            
+        </div>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="rickysu15@outlook.com" class="footer__link">Email: rickysu15@outlook.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/rickysu15/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/Rickysue">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.youtube.com/channel/UCJ05hj4n2VPycOrKoDg0N3w">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.instagram.com/rickysu15/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
